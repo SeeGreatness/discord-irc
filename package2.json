@@ -1,0 +1,13 @@
+{
+  "name": "Discord-IRC",
+  "description": "I am a bot designed to serve the IRC community",
+  "version": "0.0.1",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.3.2",
+    "request": "2.87.0"
+  }
+}
