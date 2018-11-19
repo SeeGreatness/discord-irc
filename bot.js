@@ -1,6 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+import discordIRC from 'discord-irc';
+import config from './config.json';
+discordIRC(config);
+
+
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
