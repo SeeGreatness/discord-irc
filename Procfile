@@ -1,1 +1,1 @@
-bot:npm test
+bot:node dist/index.js
