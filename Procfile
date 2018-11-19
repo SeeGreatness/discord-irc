@@ -1,1 +1,1 @@
-start:
+bot:npm test
